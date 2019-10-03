@@ -22,6 +22,8 @@ def guest(name, password, *hobby, **other):
         print (hobby[n])
     print ("Lain-lain    :")
     print (other['Sex'])
+    print ("===================")
     print (other['TTL'])
+    print ("====================")
     print (other['Umur'])
 guest(nm,pwd,*hobby,**other)
