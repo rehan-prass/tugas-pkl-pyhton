@@ -43,7 +43,7 @@ kls=[]
 jur=[]
 ang=[]
 while True:
-    print ('Masukkan data ke - ',i+1)
+    print ('Masukkan data ke -  ',i+1)
     nama.append(input('Nama Anda : '))
     npm.append(input('NPM Anda : '))
     if len(npm[i])!=8:
@@ -78,9 +78,9 @@ while True:
     lagi=''
     while lagi!='y' and lagi!='t':
         lagi=input('INPUT LAGI [Y/T] : ')
-    i+=1
     if lagi=='t':
         break
+    i+=1
 print ('                        Daftar Mahasiswa')
 print ('========================================================================')
 print ('No.  Nama     NPM     Kelas  Angkatan  Jurusan')
@@ -90,10 +90,10 @@ for n in range(i):
 print ('TOTAL JURUSAN TEKNIK INFORMATIKA = ',a,'orang\n')
 print ('TOTAL JURUSAN TEKNIK INDUSTRI = ',b,'orang\n')
 print ('TOTAL JURUSAN TEKNIK MESIN = ',c,'orang\n')
-ing=''
-while ing!='y' and ing!='t':
-    ing=input('Ingin melihat hasil [Y/T]? ')
-if ing=='y':
+lagi=''
+while lagi!='y' and lagi!='t':
+    lagi=input('Ingin melihat hasil [Y/T]? ')
+if lagi=='y':
     cari=input('Cari berdasarkan NPM : ')
     for n in range(i):
         if cari==npm[n]:

@@ -13,7 +13,7 @@ while True:
         print ('Faktorial %d! = %d'%(n,faktorial(n)))
     except:
         continue
-    break
+    
 
 # Fungsi Fibonacci
 def fibonacci(n):

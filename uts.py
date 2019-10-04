@@ -35,7 +35,7 @@ while True:
         print ('NPM Salah\n')
         continue
     print ('-------------------------------------------------------')
-    print ('nama')
+    print ('=======================================================')
     print ('Mahasiswa jurusan %s dan angkatan tahun %s'%(jur,ang))
     lagi=''
     while lagi!='y' and lagi!='t':

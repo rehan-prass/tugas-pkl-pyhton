@@ -1,7 +1,3 @@
-x = 1
-y = 5j
-z = 0.989898
-
-print(type(z))
-print(type(x))
-print(type(y))
+print("Enter your name:")
+x = input()
+print("Hello ", x)
